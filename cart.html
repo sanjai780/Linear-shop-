@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce </title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <!-- logo -->
+    <section id="header">
+        <a href="#">
+            <img src="images/logo/logo.png" alt="" srcset=""height="100" width="150">
+
+        </a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact </a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"aria-hidden="true"></i></a>
+
+            </ul>
+            <div id="mobile">
+                <a href="index6.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                <i id="bar" class="fa fa-outdent"  aria-hidden="true"></i>
+    
+            </div>
+        </div>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <!-- Your existing code for coupon and subtotal sections -->
+        <button class="normal" onclick="window.location.href='E-commerce.html'"></button>
+    </section>
+    
+    <section id="page-header" class="about-header">
+
+        <h2> #Cart </h2>
+
+        <p>customers can add items to purchase from an online store</p>
+
+
+    </section>
+    <section id="carts" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>subtotal</td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"> <i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                    <td><img src="images/products/f1.jpg" alt=""></td>
+                    <td>Men's Fashion T Shirt</td>
+                    <td>$22</td>
+                    <td><input type="number" value="3"></td>
+                    <td>$22</td>
+                </tr>
+
+
+                <tr>
+                    <td><a href="#"> <i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                    <td><img src="images/products/f3.jpg" alt=""></td>
+                    <td>Hawaiian Shirt Apricot Vintage</td>
+                    <td>$62</td>
+                    <td><input type="number" value="5"></td>
+                    <td>$62</td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td><a href="#"> <i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                    <td><img src="images/products/f2.jpg" alt=""></td>
+                    <td>MEN'S LYCRA HALF SLEEVE'S SHIRTS</td>
+                    <td>$52</td>
+                    <td><input type="number" value="2"></td>
+                    <td>$52</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>carts Total</h3>
+            <table>
+                <tr>
+                <td>carts Subtotal</td>
+                <td>$136</td>
+                </tr>
+                <tr>
+                    <td>shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$136</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo.png" alt="">
+            <h4>contact</h4>
+            <p> <strong>Address:</strong>72 willams street bangolore </p>
+            <p><strong>phone:</strong>(+91) ***********</p>
+            <p><strong>hours :</strong>10.00 am - 10.00pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-youtube-square" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us </a>
+            <a href="#">delivery Information </a>
+            <a href="#">Privacy Poilcy </a>
+            <a href="#">Terms&Condition </a>
+            <a href="#">Contact Us </a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In </a>
+            <a href="#">View Cart </a>
+            <a href="#">My Wishlist </a>
+            <a href="#">TrackMyOrder </a>
+            <a href="#">Help </a>
+        </div>
+
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play Store</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="" srcset="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
